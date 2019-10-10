@@ -1,0 +1,26 @@
+{
+  "rat": {
+    "name": "Rat",
+    "hitpoints": 10,
+    "cbtlevel": 2,
+    "atklevel": 1,
+    "deflevel": 1,
+    "xp": 10
+  },
+  "goblin": {
+    "name": "Goblin",
+    "hitpoints": 15,
+    "cbtlevel": 6,
+    "atklevel": 3,
+    "deflevel": 3,
+    "xp": 20
+  },
+  "witch": {
+    "name": "Witch",
+    "hitpoints": 25,
+    "cbtlevel": 12,
+    "atklevel": 6,
+    "deflevel": 6,
+    "xp": 30
+  }
+}
