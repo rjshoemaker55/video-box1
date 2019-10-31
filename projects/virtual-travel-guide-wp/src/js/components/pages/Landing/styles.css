@@ -1,0 +1,47 @@
+body {
+  font-family: 'Karla', sans-serif;
+}
+
+.main-heading {
+  font-weight: bold;
+  font-size: 55px;
+  color: white;
+}
+
+.main-div {
+  margin: 100px auto;
+}
+
+.sec-heading {
+  font-weight: bold;
+  font-size: 50px;
+  color: #1d1d1d;
+}
+
+#name-input {
+  margin-top: 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: #1d1d1d 5px solid;
+  border-radius: 5px;
+  background: none;
+  font-size: 50px;
+  font-weight: bold;
+  color: #1d1d1d;
+  width: 650px;
+}
+
+@media screen and (max-width: 600px) {
+  .main-heading {
+    color: black;
+  }
+  .sec-heading {
+    color: white;
+  }
+  #name-input {
+    color: white;
+    border-bottom: white 5px solid;
+    width: 90%;
+  }
+}
