@@ -18,7 +18,7 @@ body {
   color: #1d1d1d;
 }
 
-#name-input {
+.name-input {
   margin-top: 20px;
   border-top: none;
   border-left: none;
