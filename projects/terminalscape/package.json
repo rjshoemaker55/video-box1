@@ -13,5 +13,9 @@
   },
   "devDependencies": {
     "sequelize-cli": "^5.5.1"
+  },
+  "type": "module",
+  "scripts": {
+    "play": "node app.mjs"
   }
 }

@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
+const topDisplay = require('./displays/topDisplay.mjs');
 
 const train = user => {
   inquirer
@@ -13,15 +14,15 @@ const train = user => {
     .then(answer => {
       switch (answer.trainmenu) {
         case 'Rats':
-          topDisplay();
+          topDisplay(user);
           trainingArea('rat');
           break;
         case 'Goblins':
-          topDisplay();
+          topDisplay(user);
           trainingArea('goblin');
           break;
         case 'Witches':
-          topDisplay();
+          topDisplay(user);
           trainingArea('witch');
           break;
         case 'Exit':
@@ -58,7 +59,7 @@ const trainingArea = monster => {
     ])
     .then(answer => {
       if (!answer.trainingareamenu.includes('Attack')) {
-        topDisplay();
+        topDisplay(user);
         train();
       }
     });

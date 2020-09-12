@@ -1,0 +1,17 @@
+.offer-logo {
+  height: 50px;
+}
+
+.offer-wrapper {
+  display: inline-block;
+  margin: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.offer-price {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
